@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Introduction to HTML</title>
+    </head>
+    <body>
+        <h1>Welcome to HTML</h1>
+        <h2>Welcome to HTML</h2>
+        <h3>Welcome to HTML</h3>
+        <h4>Welcome to HTML</h4>
+        <h5>Welcome to HTML</h5>
+        <h6>Welcome to HTML</h6>
+
+        <p>This is a sample paragraph</p>
+
+        <ol>
+            <li>Hi</li>
+            <li>Hello</li>
+            <li>Welcome</li>
+        </ol>
+        <ul>
+            <li>Hi</li>
+            <li>Hello</li>
+            <li>Welcome</li>
+        </ul>
+
+        <!-- input-->
+        <!-- This doesn't have closing tag-->
+        <!-- attributes of the tag-->
+        <input type="text" placeholder="Enter your name">
+        <input type="number" placeholder="Enter your number">
+        <input type="email" placeholder="Enter your email">
+        <input type="password" placeholder="Enter your password">
+
+        <!-- Radio buttons-->
+        <!-- Label tags-->
+        <!-- The names of the labels should be same to achieve the functionality of radio-->
+        <!-- If the name of the labels change it will work as checkboxes-->
+        <label for="">Enter your option below: </label>
+        <label for="science">
+            <input type="radio" name="check" id="science">science
+        </label>
+        <label for="arts">
+            <input type="radio" name="check" id="arts">arts
+        </label>
+
+        <br>
+        <!-- Create an option where user can select nationality 3 options UK, India, US-->
+        <label for="">Select your Nationality: </label>
+        <label for="uk">
+            <input type="radio" name="nationality" id="uk">UK
+        </label>
+        <label for="India">
+            <input type="radio" name="nationality" id="Inida">India
+        </label>
+        <label for="us">
+            <input type="radio" name="nationality" id="us">US
+        </label>
+
+
+        <!-- Select and options-->
+        <h3>Select: </h3>
+        <label>Select your country: </label>
+        <select name="country">
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="India">India</option>
+            <option value="other">other</option>
+        </select>
+
+        <br>
+
+        <label>Select your gender: </label>
+        <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select>
+
+
+        
+    </body>
+</html>
