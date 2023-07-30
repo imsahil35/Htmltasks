@@ -11,3 +11,29 @@
     background-color: chocolate;
     border: 1px solid royalblue;
 }
+.container h5{
+    margin-right: 5px;
+}
+.container {
+    display: flex;
+    height : 300px;
+
+}
+
+.child1 {
+    display: flex;
+    width: 20%;
+}
+
+.child2 {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* text align is used to align the content in different positions
+display flex is used to combine all the elements in single row
+justify content is used to place your content anywhere horizontally
+align items used to place your contenet vertically */
+
